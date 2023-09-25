@@ -1,9 +1,8 @@
-## HW 1.1 
-#-Create a program that prompts the user for a number. \
-#-Generate a random number between 1 and 20.\
-#-If the users guess is lower than the number print that it is less.\
-#-If the users guess is higher than the number print that it is higher.\
-#-If it is out of range print that it is out of range
+#Create a program that prompts the user for a number. \
+#Generate a random number between 1 and 20.\
+#If the users guess is lower than the number print that it is less.\
+#If the users guess is higher than the number print that it is higher.\
+#If it is out of range print that it is out of range
 
 import random
 gen_rand = random.randint(0,20)
@@ -25,16 +24,3 @@ while gen_rand != user_input:
 
 
 print("You guessed the correct number")
-
-
-
-"""
-*******Notes**********
-
-1. Always validate the user input first
-2. There is not 'is' in the range() function
-3. Try the out of bound test cases
-4. break the problem in small segments
-5. traversing through the code in mind with dummy inputs without actually executing the code
-
-"""
